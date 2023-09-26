@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fahad's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f2009ee10e.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Mooli&family=Oregano&family=Phudu:wght@300&family=Roboto&family=Rubik+Iso&display=swap");
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images.png/logo.png" class="image" alt="" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services2">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <!-- <i class="fa-solid fa-circle-xmark"></i> -->
+          </ul>
+          <!-- <i class="fa-solid fa-bars"></i> -->
+        </nav>
+
+        <div class="header-text">
+          <h2>
+            Hi, I am <span>Fahad</span> <br />
+            I am a Passionate <br />
+            <span id="element"></span>
+          </h2>
+        </div>
+        <a href="images.png/my-resume.pdf" download target="_blank">
+          <button class="btn">Download Resume</button>
+        </a>
+      </div>
+    </div>
+    <!-- ------------------about---------------------- -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images.png/my-image.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <br />
+            <p class="paragraph">
+              "I'm a passionate front-end developer with a love for creating
+              visually appealing and user-friendly websites. <br />
+              <br />
+              I'm on a journey to turn my passion into a profession. I'm a
+              curious learner who finds joy in solving puzzles and creating
+              digital art with HTML, CSS, and JavaScript. <br />
+              <br />
+              Every line of code is an opportunity to learn and improve" Thanks!
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('projects')">Projects</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>• Html</li>
+                <li>• Css</li>
+                <li>• Javascript</li>
+                <li>• Bootstrap</li>
+                <li>• ReactJS</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="projects">
+              <li>Weather App</li>
+              <br />
+              <li>Calculator</li>
+              <br />
+              <li>E-commerce Website</li>
+              <br />
+              <li>To Do List App</li>
+            </div>
+            <div class="tab-contents" id="education">
+              Year 2022-2023 in 3rd Semester <br />
+              <br />
+              Department: Computer Science <br />
+              <br />
+              Virtual University of Islamabad Pakistan
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------------------my services--------------------- -->
+    <div class="services" id="services2">
+      <h1>My Services</h1>
+      <h3 class="text2">My Front-End Skills</h3>
+      <div class="box">
+        <div class="vertical">
+          <img src="images.png/html.png.png" class="image-1st" alt="" />
+          <div class="title">HTML</div>
+          <div class="description">
+            <p>Proficient in structuring web content using semantic HTML.</p>
+          </div>
+        </div>
+        <div class="vertical">
+          <img src="images.png/css.png.png" class="image-1st" alt="" />
+          <div class="title">CSS</div>
+          <div class="description">
+            <p>
+              Skilled in styling websites with CSS, including responsive design.
+            </p>
+          </div>
+        </div>
+        <div class="vertical">
+          <img
+            src="images.png/js.png"
+            class="image-1st"
+            alt=""
+            id="vertical2"
+          />
+          <div class="title">JAVASCRIPT</div>
+          <div class="description">
+            <p>
+              Familiar with JavaScript for creating interactive and dynamic web
+              elements.
+            </p>
+          </div>
+        </div>
+        <div class="vertical">
+          <img
+            src="images.png/bootstrap.png"
+            class="image-1st"
+            alt=""
+            id="vertical3"
+          />
+          <div class="title">BOOTSTRAP</div>
+          <div class="description">
+            <p>Experience in using Bootstrap for rapid website development.</p>
+          </div>
+        </div>
+        <div class="vertical">
+          <img src="images.png/react.png" class="image-1st" alt="" />
+          <div class="title">REACT</div>
+          <div class="description">
+            <p>
+              I have a foundational understanding of React and have worked on
+              basic projects to develop user interfaces with this library. I'm
+              eager to further explore React's capabilities and contribute to
+              the creation of modern, responsive web applications.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -----------contact section------------------------------------ -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i> fahadqureshi0921@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i> +923043980905</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com">
+                <i class="fa-brands fa-square-facebook"></i
+              ></a>
+              <a href="https://www.Instagram.com"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/fahad-qureshi-a4b3a6243/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input
+                type="text"
+                name="Name"
+                id=""
+                placeholder="Your Name"
+                required
+              />
+              <input
+                type="email"
+                name="Email"
+                id=""
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                id=""
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy; 2023 Fahadportfolio.com</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycby4P5tPu-dLwdslqY7OCyTYdXzZO-j54B-7R-_TmBeYYf7NNbHyuitSsiWltAKRcZvK/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message Sent Succesfully!";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      let typed = new Typed("#element", {
+        strings: ["Web Developer", "Frontend Developer", "React js Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
